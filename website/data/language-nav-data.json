@@ -216,6 +216,17 @@
       }
     ]
   },
+  { "title": "Checks", "path": "checks" },
+  {
+      "title": "Import",
+      "routes": [
+       { "title": "Overview", "path": "import" },
+       {
+         "title": "Generating Configuration",
+         "path": "import/generating-configuration"
+       }
+    ]
+  },
   {
     "title": "Expressions",
     "routes": [
@@ -249,7 +260,7 @@
         "path": "expressions/dynamic-blocks"
       },
       {
-        "title": "Custom Condition Checks",
+        "title": "Custom Conditions",
         "path": "expressions/custom-conditions"
       },
       {
